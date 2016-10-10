@@ -1,0 +1,22 @@
+Git Commands:
+  
+git config --list	- list all the settings
+git config --global alias.<aliasname> <command> - crates an alias for given command
+git add <fileNames>	- adds files to the staging area
+git commit -am "msg"	- adds all modified tracekd files to staging area and makes a commit with a message
+git commit -m		- makes a commit with a message
+git commit -v		- adds diff to commit
+git status -s		- shows current status in shortened way ?? - untracked, M - modified, A - added
+git diff		- compares what is in working area with staging area
+git diff --staged	- compares staging area with last commit
+git log -p		- logs commits with diff
+git log --stat		- log with modified files, no of changes, no of lines modified/removed
+git log [options]	- listed in book p.63, 65 TABLE 2-2, 2-3
+git remote -v		- lists all the remote branches
+git remote add <name> <url> - adds remote branch
+git checkout -- <file>	- discard changes in working directory
+git reset HEAD <file>	- unstages file
+git remote show <name>	- shows information about remote(name)
+git tag			- shows the list of tags
+git tag -a <name>	- crates annotated tag
+git show <tagname>	- shows inforamtion about given tag
