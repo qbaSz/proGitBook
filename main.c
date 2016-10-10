@@ -3,4 +3,8 @@
 '' 
 'int main(void) {}' 
 "" 
+
 "//Some fix functions from branch fixB" 
+
+"//Some functions from master branch" 
+
