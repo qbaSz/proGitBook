@@ -1,11 +1,10 @@
-"//Main file" 
-'//By QbaSz' 
-'' 
-'int main(void) {}' 
-"" 
+//Main file
+//By QbaSz 
+ 
+int main(void) {}
 
-"//Some fix functions from branch fixB" 
+//Some fix functions from branch fixB
 
-"//Some functions from master branch" 
+//Some functions from master branch
 
-"//Another feature from master" 
+//Another feature from master
