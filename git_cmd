@@ -12,6 +12,9 @@ git diff --staged	- compares staging area with last commit
 git log -p		- logs commits with diff
 git log --stat		- log with modified files, no of changes, no of lines modified/removed
 git log [options]	- listed in book p.63, 65 TABLE 2-2, 2-3
+git log branchA --not branchB - waht is in branchA that is not in branchB, we can use multiple branches
+git log branchA..branchB - commits that are to common for both, every commit that is not at the same time in A and B
+git log --left-right <range> - in which side of the range each commit is in
 git remote -v		- lists all the remote branches
 git remote add <name> <url> - adds remote branch
 git checkout -- <file>	- discard changes in working directory
@@ -20,3 +23,6 @@ git remote show <name>	- shows information about remote(name)
 git tag			- shows the list of tags
 git tag -a <name>	- crates annotated tag
 git show <tagname>	- shows inforamtion about given tag
+git stash 		- save your current work on the stack to have clean working directory
+git stash list		- shows the stack with stashed changes
+git stash apply --index	- reapplies and restages changes from the stack
