@@ -26,3 +26,5 @@ git show <tagname>	- shows inforamtion about given tag
 git stash 		- save your current work on the stack to have clean working directory
 git stash list		- shows the stack with stashed changes
 git stash apply --index	- reapplies and restages changes from the stack
+
+---END---
