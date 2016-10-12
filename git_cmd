@@ -27,11 +27,7 @@ git stash 		- save your current work on the stack to have clean working director
 git stash list		- shows the stack with stashed changes
 git stash apply --index	- reapplies and restages changes from the stack
 git stash drop stash@{n}- delete the n-th stash from the stack
-
 git grep -n <string>	- searches for string and shows line number in which string occured
 git grep --count <str>	- searches and counts the occuraces of str in files
-
-
-
 
 ---END---
