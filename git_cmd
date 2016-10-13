@@ -13,8 +13,9 @@ git log -p		- logs commits with diff
 git log --stat		- log with modified files, no of changes, no of lines modified/removed
 git log [options]	- listed in book p.63, 65 TABLE 2-2, 2-3
 git log branchA --not branchB - waht is in branchA that is not in branchB, we can use multiple branches
-git log branchA..branchB - commits that are to common for both, every commit that is not at the same time in A and B
+git log branchA...branchB - commits that are to common for both, every commit that is not at the same time in A and B
 git log --left-right <range> - in which side of the range each commit is in
+git log --left-right --merge - shows only those commits that are affected by merge conflict
 git remote -v		- lists all the remote branches
 git remote add <name> <url> - adds remote branch
 git checkout -- <file>	- discard changes in working directory
@@ -29,5 +30,6 @@ git stash apply --index	- reapplies and restages changes from the stack
 git stash drop stash@{n}- delete the n-th stash from the stack
 git grep -n <string>	- searches for string and shows line number in which string occured
 git grep --count <str>	- searches and counts the occuraces of str in files
+git rebase -i <commit>	- interactive rebase(edit, squash, discard, rearrange commits) starting from <commit>
 
 ---END---
