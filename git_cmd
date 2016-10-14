@@ -31,7 +31,7 @@ git stash drop stash@{n}- delete the n-th stash from the stack
 git grep -n <string>	- searches for string and shows line number in which string occured
 git grep --count <str>	- searches and counts the occuraces of str in files
 git rebase -i <commit>	- interactive rebase(edit, squash, discard, rearrange commits) starting from <commit>
-git branch -u		- --set-upstream, set tracking branch
+git branch -u <branch>	- --set-upstream, set tracking branch
 git merge --squash <branch> - squash commits to one from <branch> commits, before delivery
 
 ---END---
